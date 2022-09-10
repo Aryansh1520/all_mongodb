@@ -1,4 +1,4 @@
-# Mongodb installation ON Ubuntu 22.04 LTS
+# Mongodb installation FOR  Ubuntu 22.04 LTS
 ## ACTUAL INSTALLATION
 ### STEP 1: INSTALL gnup if not installed<br/>
 
