@@ -1,1 +1,16 @@
+NOTE : THIS IS A NON RETAIONAL DETABASE (NoSQL) , no tables are present here , table word is just use here for ease of understanding.
+table = collection
 
+
+show dbs;                                                                               SHOWS ALL DATABASES
+use database_name;                                                                      CREATE STATEMENT
+db.createCollection("table_name");                                                      Collection corresponds to table in relational databases;
+show collections;                                                                       Displays all the collections present
+db.table_name.insert({"column_1":"value_2","column_2":"value_2"});                      Inserting values into said collections(one by one)
+
+db.table_name.insertMany([{"column_1":"value_1","column_2":"value_2"},{"column_1":"value_3","column_2":"value_4"}]);
+INSERTING MANY VALUES IN A SINGLE STATEMENT
+
+db.table_name.find() OR db.table_name.find().pretty();                                  Printing values in a collection
+db.table_name.drop()                                                                    Drops collection
+db.dropDatabase()                                                                       Drops Database (use statement required)
