@@ -38,5 +38,6 @@ IF init THEN
 
 ```sudo service mongod start```<br/><br/>
 ```mongosh```
-```ARYAN```
+## AUTO START MONGO
+```sudo systemctl enable mongod && sudo systemctl start mongod ```
 
